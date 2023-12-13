@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a4f8f7261a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="weather-card">
+            <div class="input-card">
+                <input type="text" id="locationInput" class="input-ele" placeholder="Enter Location">
+                <i class="fa-solid fa-magnifying-glass search-icon" id="searchBtn"></i>
+            </div>
+            <div class="temp-card">
+                <p class="des" id="description">Clear Sky</p>
+                <p class="temperature" id="temperatureValue">22°C</p>
+                <p class="location" id="cityName">New York</p>
+            </div>
+            <div class="bottom-card">
+                <div class="bottom-inner-card">
+                    <i class="fa-solid fa-droplet icon"></i>
+                    <div>
+                        <p class="text-values" id="humidityValue">51%</p>
+                        <p class="text-content">Humidity</p>
+                    </div>
+                    
+                </div>
+                <div class="bottom-inner-card">
+                    <i class="fa-solid fa-wind icon"></i>
+                    <div>
+                        <p class="text-values" id="speedValue">29 km/h</p>
+                        <p class="text-content">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
